@@ -22,10 +22,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+gem 'phony_rails' # Include phony_rails after mongoid (if you use mongoid, see issue #66 on github).
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'simple_form'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
